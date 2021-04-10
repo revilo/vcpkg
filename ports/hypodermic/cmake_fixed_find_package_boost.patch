@@ -1,0 +1,13 @@
+diff --git a/Hypodermic.Tests/CMakeLists.txt b/Hypodermic.Tests/CMakeLists.txt
+index 151a295..b18bd0c 100644
+--- a/Hypodermic.Tests/CMakeLists.txt
++++ b/Hypodermic.Tests/CMakeLists.txt
+@@ -2,7 +2,7 @@ project(Hypodermic.Tests)
+ cmake_minimum_required(VERSION 2.6)
+ 
+ 
+-find_package(Boost COMPONENTS system unit_test_framework)
++find_package(Boost REQUIRED COMPONENTS system unit_test_framework)
+ if(Boost_FOUND)
+     include_directories(${Boost_INCLUDE_DIRS})
+     link_directories(${Boost_LIBRARY_DIRS})

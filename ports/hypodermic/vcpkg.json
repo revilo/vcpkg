@@ -1,5 +1,14 @@
 {
   "name": "hypodermic",
   "version-string": "2.5.2",
-  "description": "Hypodermic is a non-intrusive header only IoC container for C++"
+  "description": "Hypodermic is a non-intrusive header only IoC container for C++",
+  "dependencies": [
+    "boost-algorithm",
+    "boost-config",
+    "boost-format",
+    "boost-range",
+    "boost-signals2",
+    "boost-system",
+    "boost-test"
+  ]
 }
